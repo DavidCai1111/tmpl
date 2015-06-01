@@ -1,0 +1,16 @@
+{
+  "name": "tmpl",
+  "version": "1.0.0",
+  "description": "tmpl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "template",
+    "engine"
+  ],
+  "author": "DavidCai1993",
+  "license": "MIT"
+}
