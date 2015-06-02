@@ -6,6 +6,7 @@ a tiny&amp;simple template engine with ES6 DNA
 
 ## installation
 via NPM:
+> Please use `tmpl` by io.js(v2.1.0)
 ```SHELL
 npm isntall node-ts-tmpl --save
 ```
@@ -27,7 +28,7 @@ assume that you have an object with the structure like:
 <p>hello,DavidCai</p>
 ```
 
-### unescape text
+### unescaped text
 `tmpl` will escape all text you put in {%=...%}, unless you put them in {%!...%}
 ```html
 {%!<p>unescaped</p>%}
