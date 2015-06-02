@@ -4,7 +4,7 @@
   "description": "tmpl",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/babel --ignore node_modules . --out-dir build && cp ./test/test.html ./build/test/test.html && istanbul cover _mocha build/test"
   },
   "keywords": [
     "html",
@@ -12,5 +12,11 @@
     "engine"
   ],
   "author": "DavidCai1993",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
 }
