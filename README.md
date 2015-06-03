@@ -6,7 +6,7 @@ a tiny&amp;simple template engine with ES6 DNA
 
 ## installation
 via NPM:
-> Please use `tmpl` by io.js(v2.1.0)
+> Please use `tmpl` by io.js(v2.1.0 now)
 ```SHELL
 npm isntall node-ts-tmpl --save
 ```
